@@ -1,4 +1,4 @@
-﻿# 🧠 Volatile Memory Forensics Cheatsheet (Volatility 3)
+# Volatile Memory Forensics Cheatsheet (Volatility 3)
 
 Panduan praktis investigasi dump RAM (*volatile memory forensics*) menggunakan framework Volatility 3 untuk mendeteksi proses mencurigakan, rootkit, dan injeksi kode (*code injection*).
 
