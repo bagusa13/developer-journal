@@ -1,0 +1,10 @@
+# Developer Journal & Scripting Playbook Dependencies
+# Author: Mohammad Bagus Satrio (https://github.com/bagusa13)
+
+# Core automation utilities utilize Python Standard Library modules (hashlib, socket, urllib, argparse, json).
+# The following libraries are optional for advanced extended features:
+
+requests>=2.31.0
+urllib3>=2.0.0
+pytest>=8.0.0
+pydantic>=2.5.0

@@ -1,3 +1,0 @@
-﻿# Python Core Dependencies
-# All scripts run on native Python standard libraries (hashlib, socket, argparse, json).
-# Zero external package bloat for portable forensic execution.

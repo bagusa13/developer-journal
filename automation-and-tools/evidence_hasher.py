@@ -1,7 +1,8 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Evidence Hasher & Integrity Verifier
 Author: Mohammad Bagus Satrio (https://github.com/bagusa13)
+Repository: developer-journal
 Purpose: Forensic-grade multi-hash generation (MD5, SHA-1, SHA-256) with chain-of-custody logging.
 """
 

@@ -1,8 +1,9 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Lightweight Network Triage & Port Inspector
 Author: Mohammad Bagus Satrio (https://github.com/bagusa13)
-Purpose: Fast local socket and listening services identification for incident response.
+Repository: developer-journal
+Purpose: Fast local socket and listening services identification for incident response and sysadmin triage.
 """
 
 import socket

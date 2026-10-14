@@ -1,10 +1,14 @@
-﻿# 🌐 Network Traffic Analysis & Wireshark Filter Cheatsheet
+# Network Traffic Analysis & Wireshark Filter Cheatsheet
+
+> **Author**: Mohammad Bagus Satrio ([@bagusa13](https://github.com/bagusa13))  
+> **Repository**: [developer-journal](https://github.com/bagusa13/developer-journal)
 
 Daftar filter penting (*display filters*) untuk analisis paket jaringan dalam skenario investigasi insiden (*Incident Response*).
 
 ---
 
 ## 1. Analisis DNS Anomali & Tunneling
+
 ```wireshark
 # Tampilkan seluruh query DNS yang dikirim
 dns.flags.response == 0
@@ -19,6 +23,7 @@ dns.qry.name contains "malicious-domain.com"
 ---
 
 ## 2. Investigasi HTTP & Web Payload
+
 ```wireshark
 # Mencari seluruh request HTTP method POST (biasanya upload payload atau submit kredensial)
 http.request.method == "POST"
@@ -33,6 +38,7 @@ frame contains "password" or frame contains "passwd" or frame contains "login"
 ---
 
 ## 3. Deteksi Pemindaian Jaringan (Port Scanning)
+
 ```wireshark
 # Deteksi paket TCP SYN tanpa ACK (indikasi SYN stealth scan)
 tcp.flags.syn == 1 and tcp.flags.ack == 0
