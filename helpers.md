@@ -1,0 +1,1 @@
+﻿# Notes for helpers.md
