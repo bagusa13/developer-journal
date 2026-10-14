@@ -1,7 +1,60 @@
-﻿# ðŸ’» Developer Journal & Daily Learning Log
+﻿# ðŸ›¡ï¸ Cybersecurity, DFIR & Engineering Knowledge Base
 
-Catatan harian progres pembelajaran, riset teknologi, eksperimen kode, dan peningkatan skill rekayasa perangkat lunak serta keamanan siber.
+[![Author](https://img.shields.io/badge/Author-Mohammad%20Bagus%20Satrio-blue?style=for-the-badge&logo=github)](https://github.com/bagusa13)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Focus](https://img.shields.io/badge/Domain-Cybersecurity%20%7C%20DFIR%20%7C%20Fullstack-red?style=for-the-badge)](https://github.com/bagusa13)
 
-- **Author**: Mohammad Bagus Satrio
-- **GitHub**: [@bagusa13](https://github.com/bagusa13)
-- **Fokus**: Software Engineering, Cybersecurity & DFIR
+Selamat datang di repositori dokumentasi teknis, riset keamanan siber, catatan investigasi digital forensik (*DFIR*), dan perangkat utilitas kode terbuka yang dikurasi oleh **Mohammad Bagus Satrio**.
+
+---
+
+## ðŸ“‚ Struktur Repositori
+
+`	ext
+developer-journal/
+â”œâ”€â”€ forensics-dfir/                # Panduan Investigasi Forensik Digital
+â”‚   â”œâ”€â”€ usb-artifact-carving-guide.md
+â”‚   â””â”€â”€ memory-forensics-volatility.md
+â”œâ”€â”€ network-security/              # Analisis Lalu Lintas Jaringan & Packet Inspection
+â”‚   â””â”€â”€ wireshark-filters-guide.md
+â”œâ”€â”€ linux-administration/          # Hardening Sistem Operasi Linux & Privilege Escalation
+â”‚   â””â”€â”€ linux-security-cheatsheet.md
+â”œâ”€â”€ web-security/                  # Praktik Keamanan Web & Arsitektur OWASP
+â”‚   â””â”€â”€ owasp-top10-guide.md
+â””â”€â”€ scripts-and-tools/             # Perkakas Kode Otomasi Python (Standar DFIR)
+    â”œâ”€â”€ evidence_hasher.py         # Multi-hash Integrity Verification Tool
+    â”œâ”€â”€ network_triage.py          # Fast Socket & Port Listener Auditor
+    â””â”€â”€ requirements.txt
+`
+
+---
+
+## ðŸ› ï¸ Perkakas Otomasi Bawaan (Scripts & Tools)
+
+### 1. evidence_hasher.py (Forensic File Hasher)
+Script Python untuk menghitung nilai hash kriptografis (*MD5, SHA-1, SHA-256*) bukti digital secara massal dengan output JSON berstandar forensik.
+`ash
+python scripts-and-tools/evidence_hasher.py /path/to/evidence -o report.json
+`
+
+### 2. 
+etwork_triage.py (Socket Auditor)
+Utilitas inspeksi port aktif untuk mengaudit socket lokal selama proses penanganan insiden (*Incident Response*).
+`ash
+python scripts-and-tools/network_triage.py 127.0.0.1
+`
+
+---
+
+## ðŸ”— Portofolio & Proyek Terkait
+
+- **[dfir-usb-investigation](https://github.com/bagusa13/dfir-usb-investigation)**: Analisis forensik fisik USB drive, MBR/exFAT parsing, file carving, dan anti-forensics.
+- **[kediengaja](https://github.com/bagusa13/kediengaja)**: Platform reservasi tur wisata berbasis Next.js 14, Firebase, dan WhatsApp engine.
+
+---
+
+## ðŸ‘¤ Author & Kontak
+* **Nama**: Mohammad Bagus Satrio
+* **Email**: [bagusa1313@gmail.com](mailto:bagusa1313@gmail.com)
+* **LinkedIn**: [linkedin.com/in/bagusa](https://www.linkedin.com/in/bagusa)
+* **GitHub**: [@bagusa13](https://github.com/bagusa13)
